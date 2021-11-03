@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    img{
+      width: 400px;
+    }
+  </style>
+</head>
+<body>
+  <div class="t">
+    <img src="./img/기적.jpg" alt="">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zGNxA4IDSyQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <script>
+    let img = document.querySelector("img");
+    let iframe = document.querySelector("iframe");
+
+    img.onclick = function() {
+      iframe.style.display = "none";
+    }
+    img.onclick = function() {
+      iframe.style.display = "block";
+    }
+    iframe.onclick = function() {
+      img.style.display = none;
+    }
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+* {box-sizing: border-box; margin: 0; padding: 0;}
+ul, ol {list-style: none;}
+a {text-decoration: none;}
+
+
+h1 {
+  color: blue;
+}
+.active {
+  color: tomato;
+}
+.hidden {
+  display: none;
+}

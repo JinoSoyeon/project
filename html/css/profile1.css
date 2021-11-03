@@ -1,0 +1,113 @@
+* {box-sizing: border-box; margin: 0; padding: 0;}
+a {text-decoration: none;}
+ul, ol {list-style: none;}
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+
+body {
+  font-family: 'Amatic SC', cursive;
+}
+.member1 {
+  background-color: skyblue;
+}
+.member1 .card {
+  box-shadow: teal 5px 5px;
+}.member1 button {
+  background-color: rgb(85, 181, 219);
+  box-shadow: teal 2px 2px;
+}
+.card {
+  background-color: white;
+  margin: 50px auto;
+  width: 300px;
+  border-radius: 20px;
+}
+#top_menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+#user_proflie {
+  text-align: center;
+}
+img {
+  border-radius: 50%;
+}
+#user_proflie h1 {
+  font-size: 32px;
+  margin-top: 10px;
+}
+#user_proflie p {
+  font-size: 16px;
+  color: gray;
+}
+#user_proflie button {
+  margin-top: 20px;
+  padding: 10px 40px;
+  border-radius: 20px;
+  border: none;
+  color : blanchedalmond;
+  font-weight: 600;
+}
+#user_proflie button:hover {
+  background-color: dodgerblue;
+  cursor: pointer;
+}
+#sns li{
+  width: 250px;
+  margin-top: 10px;
+  margin-left: 50px;
+  font-size: 20px;
+}
+#sns li:nth-child(1){
+  padding-bottom: 10px;
+}
+#sns li span {
+  padding-right: 10px;
+}
+#sns p{
+  display: inline-block;
+  border-bottom: 1px gray solid;
+}
+#other {
+  width: 100%;
+  text-align: center;
+}
+#other a {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 20px 10px;
+  opacity: 0.4;
+  filter: saturate(0.7);
+}
+#other a:nth-child(1) {
+  background-color: dodgerblue;
+  box-shadow: #3d4f8b 2px 2px 2px;
+}
+#other a:nth-child(2) {
+  background-color :darksalmon;
+  box-shadow: #d84191 2px 2px 2px;
+}
+#other a:nth-child(3) {
+  background-color :darkorange;
+  box-shadow :chocolate 2px 2px 2px;
+}
+#other a:nth-child(4) {
+  background-color :darkorchid;
+  box-shadow: #3f2642 2px 2px 2px;
+}
+#other .on {
+  opacity: 1;
+  filter: saturate(1);
+}
+.member2 {
+  background-color: darksalmon;
+}
+.member2 .card {
+  box-shadow: #d15c75 5px 5px;
+}.member2 button {
+  background-color: darksalmon;
+  box-shadow: #d15c75 2px 2px;
+}
